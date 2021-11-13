@@ -1,3 +1,3 @@
 # CodingTest
 
-Greedy algorithm
+1. (11/14) Greedy algorithm
