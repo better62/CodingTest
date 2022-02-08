@@ -1,4 +1,14 @@
-# CodingTest
+# DFS와 BFS
 
-1. (11/14) [Greedy algorithm](https://github.com/better62/CodingTest/tree/better62-Greedy)
-2. (11/15) [Implementation](https://github.com/better62/CodingTest/tree/better62-implementation)
+1. 그래프 구현
+- 인접 행렬 (2차원 리스트 + 간선의 가중치)
+- 인접 리스트 (2차원 리스트 + 각 노드에 연결된 노드와 거리를 튜플로)
+
+2. 그래프 탐색
+DFS : 스택과 재귀함수를 이용하여 구현, 탐색 시 O(N)
+BFS : 큐와 큐 자료구조를 이용하여 구현, 탐색 시 O(N)
+* 일반적인 경우 BFS가 실제 수행 시간이 더 좋다.
+
+TIP) 코딩 테스트 중 2차원 배열에서의 탐색 문제를 만나면 그래프 형태로 바꿔서 생각하면 좀 더 쉬울 수 있다.
+예를 들어 게임 캐릭터 이동 시 상하좌우로만 이동이 가능하다면 game map을 만들어 좌표로 생각하기!
+
